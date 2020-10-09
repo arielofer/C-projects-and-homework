@@ -139,12 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bulk_funcs.h" />
     <ClInclude Include="Monom.h" />
     <ClInclude Include="poly_funcs.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bulk_funcs.cpp" />
     <ClCompile Include="poly_funcs.cpp" />
     <ClCompile Include="Tar1-Polynoms.cpp" />
+    <ClCompile Include="Tar2-Bulk.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

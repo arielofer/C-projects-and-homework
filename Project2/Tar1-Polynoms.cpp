@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "poly_funcs.h"
 
-int main()
+int poly_main()
 {
 	PolyNodePtr p1, p2, sum ,mul;
 	char* str= NULL;

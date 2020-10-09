@@ -21,12 +21,21 @@
     <ClInclude Include="poly_funcs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Bulk_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="poly_funcs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Tar1-Polynoms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulk_funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tar2-Bulk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
