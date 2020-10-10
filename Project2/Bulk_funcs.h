@@ -3,7 +3,7 @@
 #include <string.h>
 
 //size of the board
-#define N 5
+#define N 12
 #define MAX_STRING_LENGTH N-1
 
 //typedefs
