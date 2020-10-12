@@ -18,5 +18,8 @@
     <ClCompile Include="daf_avoda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="targil_mesacem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -160,7 +160,7 @@ int sub_dig_amount(int num1, int num2) {
 	}
 }
 
-int main() 
+int func_test() 
 {
 	//tar1
 	printf("tar1: %d\n", check_for_five(520)); //1
