@@ -18,4 +18,4 @@ typedef struct Direction {
 void clr_screen();
 void board_build(int board[][N + 2], int n);
 void print_board(int board[][N + 2]);
-void trof(int board[][N + 2]);
+void con_trof(int board[][N + 2]);

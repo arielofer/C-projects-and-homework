@@ -8,8 +8,21 @@ void clr_screen() {
 	system("@cls||clr");
 }
 
-//board initializer
-//actual board is 1-100
+//-----------------------------------------------------------------------------
+//								Board Build
+//								-----------
+//
+// General : The function gets a matrix(board) and an int n(number of trons), 
+//   inserts safety walls around the matrix and inserts n trons to the matrix using
+//   coordinets from user input.
+//
+// Parameters :
+// board (In)
+// n (In)
+//
+// Return Value : None
+//
+//-----------------------------------------------------------------------------
 void board_build(int board[][N + 2], int n) {
 	//setup kir bitachon
 	for (int i = 0; i < N + 2; i++)
@@ -34,6 +47,18 @@ void board_build(int board[][N + 2], int n) {
 	}
 }
 
+//-----------------------------------------------------------------------------
+//								print Board
+//								-----------
+//
+// General : The function gets a matrix(board) and prints it. 
+//
+// Parameters :
+// board (In)
+//
+// Return Value : None
+//
+//-----------------------------------------------------------------------------
 void print_board(int board[][N + 2]) {
 
 	clr_screen();//get rid of old output
@@ -44,8 +69,20 @@ void print_board(int board[][N + 2]) {
 	}
 }
 
-//insert and move trof
-void trof(int board[][N + 2])
+//-----------------------------------------------------------------------------
+//								Control Trof
+//								------------
+//
+// General : The function gets a matrix(board), then gets user input to
+//	move the Trof (theoreticly) around the matrix to eat the trons.
+//
+// Parameters :
+// board (In)
+//
+// Return Value : None
+//
+//-----------------------------------------------------------------------------
+void con_trof(int board[][N + 2])
 {
 	int trof_x, trof_y, amount_steps, move_arr_index;
 

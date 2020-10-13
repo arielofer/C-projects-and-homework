@@ -8,7 +8,7 @@ int main()
 	scanf("%d", &num_of_trons);
 	board_build(board, num_of_trons);
 	print_board(board);
-	trof(board);
+	con_trof(board);
 
 	return 0;
 }
