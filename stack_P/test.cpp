@@ -8,7 +8,7 @@ void print_s(stack s)
 		printf("-\n%d\n-", s.data[s.top--]);
 }
 
-int main()
+int S_main()
 {
 	stack s;
 	stack_init(&s);
@@ -17,4 +17,6 @@ int main()
 
 	print_s(s);
 	print_s(s);
+
+	return 0;
 }

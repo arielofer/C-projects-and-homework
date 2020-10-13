@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bc1900e2-3c43-4758-84bf-0ff81aa508a5}</ProjectGuid>
-    <RootNamespace>stackP</RootNamespace>
+    <ProjectGuid>{24d124ef-1b93-4d0d-8464-112065949b30}</ProjectGuid>
+    <RootNamespace>DynamicarrStack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Static_arr_Stack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,12 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="..\stack_P\DStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="page1.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="..\stack_P\DStack.cpp" />
+    <ClCompile Include="..\stack_P\Dtest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

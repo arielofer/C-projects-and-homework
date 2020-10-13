@@ -8,7 +8,7 @@ void print_s(stack s)
 	stack temp; stack_init(&temp);
 	while (!stack_empty(s))
 	{
-		printf("-\n%d\n-", s.data[*s.top]);
+		printf("-\n%d\n-", s.data[s.top]);
 		stack_push(&temp, stack_pop(&s));
 	}
 	while (!stack_empty(temp))
@@ -18,7 +18,7 @@ void print_s(stack s)
 	
 }
 
-int main()
+int D_main()
 {
 	stack s;
 	stack_init(&s);
@@ -27,4 +27,6 @@ int main()
 
 	print_s(s);
 	print_s(s);
+
+	return 0;
 }
