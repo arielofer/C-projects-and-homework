@@ -21,7 +21,7 @@ int countisbig(int mat[][N + 2]) {
 	return count;
 }
 
-void main() {
+void not_main() {
 	int mata[N][N] = { {8,2,13,4},
 					   {6,7,8,9},
 					   {10,20,12,13},

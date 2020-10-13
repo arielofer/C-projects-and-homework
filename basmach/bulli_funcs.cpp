@@ -84,7 +84,6 @@ void print_board(char board[][N], character *bulliman, character *snail_bear, in
 			printf(" %c", board[i][j]);
 		printf("\n");
 	}
-
 }
 
 
