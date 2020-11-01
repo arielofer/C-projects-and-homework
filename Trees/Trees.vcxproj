@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinTree.h" />
-    <ClCompile Include="Mesacem.cpp" />
+    <ClCompile Include="avodat_sicum.cpp" />
     <ClCompile Include="queue.cpp" />
   </ItemGroup>
   <ItemGroup>

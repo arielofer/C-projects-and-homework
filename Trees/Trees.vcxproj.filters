@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mesacem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BinTree.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avodat_sicum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doubly_linked", "doubly_lin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircledLists", "CircledLists\CircledLists.vcxproj", "{1C085A0B-6081-4D8E-A1C1-149080B38763}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphs", "graphs\graphs.vcxproj", "{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{1C085A0B-6081-4D8E-A1C1-149080B38763}.Release|x64.Build.0 = Release|x64
 		{1C085A0B-6081-4D8E-A1C1-149080B38763}.Release|x86.ActiveCfg = Release|Win32
 		{1C085A0B-6081-4D8E-A1C1-149080B38763}.Release|x86.Build.0 = Release|Win32
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Debug|x64.ActiveCfg = Debug|x64
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Debug|x64.Build.0 = Debug|x64
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Debug|x86.ActiveCfg = Debug|Win32
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Debug|x86.Build.0 = Debug|Win32
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Release|x64.ActiveCfg = Release|x64
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Release|x64.Build.0 = Release|x64
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Release|x86.ActiveCfg = Release|Win32
+		{14071AFE-F9FF-42BA-8CBD-2DCFD10E567B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
